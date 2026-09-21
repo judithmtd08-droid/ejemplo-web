@@ -1,0 +1,10 @@
+.header, .footer{
+    background-color:rgb(232, 129, 129);
+    padding: 20px;
+    text-align: center;
+}
+.main{
+    padding: 20px;
+    text-align: center;
+    fon-family:sans-serif;
+}
