@@ -1,0 +1,133 @@
+.header{
+	background-color:lightpink;
+	color:black;
+	padding: 20px 20px;
+	text-align:center;
+	font-family: times new roman;
+	
+}
+.HORARIO{
+	background-color: #FFD1FF;
+	color:black;
+	padding: 20px 20px;
+	text-align:center;
+	font-family: times new roman;
+	
+}
+.DÍAS{
+	background-color: #FFFFD1;
+}
+.HORA{
+	background-color: #FFFFD1;
+	color:black;
+	padding: 20px 30px;
+	display: flex;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+	
+}
+.TABLA{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.PROG{
+	background-color:#FFD1DC;
+	color:black;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+	
+}
+
+.SIST{
+	background-color: #FFE5B4;
+	color:black;
+	padding: 20px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.BBDD{
+	background-color: #C1E8FF;
+	color:black;
+	padding: 20px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.IPE{
+	background-color: #d2fac1;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.ING{
+	background-color: #a4cbe5;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.LLMM{
+	background-color: #B57EDC;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.RECREO{
+	background-color:#FCF6BD;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.DIGI{
+	background-color: #EAC4D5;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.SOS{
+	background-color: #A5D6A7;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.ENT{
+	background-color: #75F9F2;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.PRO{
+	background-color: #F0A39D;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+.FOOTER{
+	background-color: #FFBEBC;
+	color:black;
+	padding: 10px 30px;
+	align-items:center;
+	text-align:center;
+	font-family: times new roman;
+}
+
+

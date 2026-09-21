@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+    </head> 
+        <link rel="stylesheet" href="css/estiloform.css">
+    <body>
+        <header class="header">
+            <p>Formulario</p>
+           <button type="button" onclick="history.back()" aria-label="Volver a la página anterior">
+  <img src="img/flecha.png" alt="">
+</button>
+        <a href="1html.html">Inicio</a>
+        <a href="Formulario.html">Formulario</a>
+        <a href="horario.html">Horario</a>
+        </header>
+        <main class="main">
+            <p>Formulario de contacto</p>
+            <form>
+                <fieldset class="fieldset">
+                    <legend>Datos de contacto</legend>
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br><br></p>
+                    </p>
+                    <p>
+                        <label for="apellido">Apellidos:</label>
+                        <input type="text" id="apellido" name="apellido" required><br><br></p>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                    </p>
+                    <p>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña" name="contraseña" required><br><br>
+                    </p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                <p>
+
+                    <label for="comentario">Comentario:</label>
+                    <input id="comentario" name="comentario" rows="6" cols="40">
+
+                </p>
+                </fieldset>
+                <fieldset class="fieldset">
+                    <p>
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </p>
+                    <p>
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora">
+                    </p>
+                    <p>
+                        <label for="color">Color Favorito:</label>
+                        <input type="color" id="color" name="color">
+                    </p>
+                    <p>
+                        <label for="Mes">Mes:</label>
+                        <input type="month" id="Mes" name="Mes">
+                    </p>
+                </fieldset class="fieldset">
+            </form>
+               <button type="submit">OK</button>
+               <button type="reset"> Borrar</button>
+        </main>
+        <footer class="footer">
+            <p>CIFP Virgen de Gracia</p>
+            <p>Contacto: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">judithmtd08@gmail.com</a></p>
+        </footer>
+    </body>
+</html>

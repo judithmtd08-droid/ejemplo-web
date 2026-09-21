@@ -1,0 +1,20 @@
+.header, .footer{
+    background-color:rgb(232, 129, 129);
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.main{
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.fieldset{
+    border: 1px solid rgb(232, 129, 129);
+    padding: 20px;
+    margin: 20px;
+    align:left;
+    background-color:rgb(192, 192, 234);
+    align-items: left;
+    
+}
