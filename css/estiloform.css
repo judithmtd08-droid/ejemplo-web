@@ -1,11 +1,15 @@
 .header, .footer{
     background-color:rgb(232, 129, 129);
     padding: 20px;
+<<<<<<< HEAD
     font-family:'Times New Roman', Times, serif;
+=======
+>>>>>>> 8351ef41aa524331a1082075fde3898de3ec58b6
     text-align: center;
 }
 .main{
     padding: 20px;
+<<<<<<< HEAD
     font-family:'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -17,4 +21,8 @@
     background-color:rgb(192, 192, 234);
     align-items: left;
     
+=======
+    text-align: center;
+    fon-family:sans-serif;
+>>>>>>> 8351ef41aa524331a1082075fde3898de3ec58b6
 }
