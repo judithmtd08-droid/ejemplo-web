@@ -1,45 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi página web</title>
-    <link rel="stylesheet" href="../MiPrimeraWeb/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi página web</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <h1>Bienvenido a mi página web</h1>
-
-    <p>En esta página puedes encontrar mis tres apartados.</p>
-
-    <h2>Mis apartados</h2>
-
-    <div class="apartados">
-
-        <div class="apartado">
-            <h3>Apartado 1</h3>
-            <p>Entra para ver el primer apartado.</p>
-            <a href="Formulario.html">Ver apartado</a>
+    <header>
+        <h1>Mi página web</h1>
+        <nav>
+            <details>
+                <summary>Ir a un ejercicio</summary>
+                <div class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="Formulario.html">Ejercicio 1: Formulario</a>
+                    <a href="1html.html">Ejercicio 2: HTML</a>
+                    <a href="horario.html">Ejercicio 3: Horario</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a mi página web</h2>
+        <p>En esta página puedes encontrar mi portfolio y los ejercicios que he realizado.</p>
+        <h2>Mis ejercicios</h2>
+        <div class="apartados">
+            <section class="apartado">
+                <h3>Ejercicio 1: Formulario</h3>
+                <p>Formulario con diferentes campos para introducir datos.</p>
+                <a class="boton" href="Formulario.html">Ver ejercicio</a>
+            </section>
+            <section class="apartado">
+                <h3>Ejercicio 2: HTML</h3>
+                <p>Ejemplo de página con títulos, listas, enlaces e imagen.</p>
+                <a class="boton" href="1html.html">Ver ejercicio</a>
+            </section>
+            <section class="apartado">
+                <h3>Ejercicio 3: Horario</h3>
+                <p>Tabla con el horario semanal de clase.</p>
+                <a class="boton" href="horario.html">Ver ejercicio</a>
+            </section>
         </div>
-
-        <div class="apartado">
-            <h3>Apartado 2</h3>
-            <p>Entra para ver el segundo apartado.</p>
-            <a href="1html.html">Ver apartado</a>
-        </div>
-
-        <div class="apartado">
-            <h3>Apartado 3</h3>
-            <p>Entra para ver el tercer apartado.</p>
-            <a href="horario.html">Ver apartado</a>
-        </div>
-
-    </div>
-
+    </main>
     <footer>
-        <p>Mi página web - 2026</p>
+        <p>Hecho por Judith · 2026</p>
+        <p>CIFP Virgen de Gracia</p>
     </footer>
-
 </body>
 </html>
-
