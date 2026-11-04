@@ -1,76 +1,46 @@
-<DOCTYPE html>
-	<head>
-		<meta charset="UTF-8">
-		<title>HORARIO 26/27 </title>
-		<link rel="stylesheet" href="../MiPrimeraWeb/css/estilo.css">
-	</head>
-	<body>
-			<header class="header">
-				<a href="1html.html">Inicio</a>
-				<a href="Formulario.html">Formulario</a>
-				<a href="index.html">Horario</a>
-				
-				<p>HORARIO 26/27 </p>
-			</header>
-		<main>
-			<p class="HORARIO">HORARIO</p>
-			<table class="TABLA">
-				<tr class="DÍAS">
-					<th>     </th>
-					<th>Lunes</th>
-					<th>Martes</th>
-					<th>Miercoles</th>
-					<th>Jueves</th>
-					<th>Viernes</th>
-				</tr>
-				<tr>
-					<td class="HORA">8:30-9:25</td>
-					<td class="PROG"rowspan="2">Programación</td>
-					<td class="SIST">Sistemas Inf</td>
-					<td class="BBDD" rowspan=2>BBDD</td>
-					<td class="PROG" rowspan="2">Programación</td>
-					<td class="IPE" rowspan=2>IPE</td>
-				</tr>
-				<tr>
-					<td class="HORA">9:25-10:30 </td>
-					<td class=ING>Inglés </td>
-				</tr>
-				<tr>
-					<td class="HORA">10:30-11:15 </td>
-					<td class="PRO">Proyecto</td>
-					<td class="BBDD">BBDD</td>
-					<td class="LLMM">LLMM</td>
-					<td class="SIST">Sistemas Inf</td>
-					<td class="DIGI">Digitalización</td>
-				</tr>
-				<tr>
-					<td class="HORA">11:15-11:45</td>
-					<td class="RECREO" colspan="5">RECREO</td>
-				</tr>
-				<tr>
-					<td class="HORA">11:45-12:40 </td>
-					<td class="SIST">Sistemas inf</td>
-					<td class="BBDD" rowspan="2">BBDD</td>
-					<td class="PROG" rowspan="2">Programación</td>
-					<td class="SIST">Sistemas inf</td>
-					<td class="DIGI">Digitalización</td>
-				</tr>
-				<tr>
-					<td class="HORA">12:40-13:35</td>
-					<td class="LLMM" rowspan="2">LLMM</td>
-					<td class="SOS">Sostenibilidad</td>
-					<td class="ENT" rowspan="2">Entornos</td>
-				</tr>
-				<tr>
-					<td class="HORA">13:35-14:30 </td>
-					<td class="IPE">IPE</td>
-					<td class="SIST">Sistemas Inf</td>
-					<td class="ING">Inglés</td>
-				</tr>
-			</table>
-		</main>
-		<footer class="FOOTER">
-			<p>HECHO POR JUDITH </p>
-		</footer>
-	</body>
-</DOCTYPE>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Horario 26/27</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Mi página web</h1>
+        <nav>
+            <details>
+                <summary>Ir a un ejercicio</summary>
+                <div class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="Formulario.html">Ejercicio 1: Formulario</a>
+                    <a href="1html.html">Ejercicio 2: HTML</a>
+                    <a href="horario.html">Ejercicio 3: Horario</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+    <main>
+        <h2 class="HORARIO">Horario 26/27</h2>
+        <div class="contenedor-tabla">
+        <table class="TABLA">
+            <tr class="DÍAS"><th>Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr>
+            <tr><td class="HORA">8:30-9:25</td><td class="PROG" rowspan="2">Programación</td><td class="SIST">Sistemas Inf.</td><td class="BBDD" rowspan="2">BBDD</td><td class="PROG" rowspan="2">Programación</td><td class="IPE" rowspan="2">IPE</td></tr>
+            <tr><td class="HORA">9:25-10:30</td><td class="ING">Inglés</td></tr>
+            <tr><td class="HORA">10:30-11:15</td><td class="PRO">Proyecto</td><td class="BBDD">BBDD</td><td class="LLMM">LLMM</td><td class="SIST">Sistemas Inf.</td><td class="DIGI">Digitalización</td></tr>
+            <tr><td class="HORA">11:15-11:45</td><td class="RECREO" colspan="5">RECREO</td></tr>
+            <tr><td class="HORA">11:45-12:40</td><td class="SIST">Sistemas Inf.</td><td class="BBDD" rowspan="2">BBDD</td><td class="PROG" rowspan="2">Programación</td><td class="SIST">Sistemas Inf.</td><td class="DIGI">Digitalización</td></tr>
+            <tr><td class="HORA">12:40-13:35</td><td class="LLMM" rowspan="2">LLMM</td><td class="SOS">Sostenibilidad</td><td class="ENT" rowspan="2">Entornos</td></tr>
+            <tr><td class="HORA">13:35-14:30</td><td class="IPE">IPE</td><td class="SIST">Sistemas Inf.</td><td class="ING">Inglés</td></tr>
+        </table>
+        </div>
+    </main>
+    <footer>
+        <p>Hecho por Judith · 2026</p>
+        <p>CIFP Virgen de Gracia</p>
+    </footer>
+</body>
+</html>
