@@ -1,73 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Formulario</title>
-    </head> 
-        <link rel="stylesheet" href="../MiPrimeraWeb/css/estiloform.css">
-    <body>
-        <header class="header">
-            <p>Formulario</p>
-        <a href="1html.html">Inicio</a>
-        <a href="Formulario.html">Formulario</a>
-        <a href="horario.html">Horario</a>
-        </header>
-        <main class="main">
-            <p>Formulario de contacto</p>
-            <form>
-                <fieldset class="fieldset">
-                    <legend>Datos de contacto</legend>
-                    <p>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required><br><br></p>
-                    </p>
-                    <p>
-                        <label for="apellido">Apellidos:</label>
-                        <input type="text" id="apellido" name="apellido" required><br><br></p>
-                    </p>
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br><br>
-                    </p>
-                    <p>
-                        <label for="contraseña">Contraseña</label>
-                        <input type="password" id="contraseña" name="contraseña" required><br><br>
-                    </p>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" required><br><br>
-
-                <p>
-
-                    <label for="comentario">Comentario:</label>
-                    <input id="comentario" name="comentario" rows="6" cols="40">
-
-                </p>
-                </fieldset>
-                <fieldset class="fieldset">
-                    <p>
-                        <label for="fecha">Fecha:</label>
-                        <input type="date" id="fecha" name="fecha">
-                    </p>
-                    <p>
-                        <label for="hora">Hora:</label>
-                        <input type="time" id="hora" name="hora">
-                    </p>
-                    <p>
-                        <label for="color">Color Favorito:</label>
-                        <input type="color" id="color" name="color">
-                    </p>
-                    <p>
-                        <label for="Mes">Mes:</label>
-                        <input type="month" id="Mes" name="Mes">
-                    </p>
-                </fieldset class="fieldset">
-            </form>
-               <button type="submit">OK</button>
-               <button type="reset"> Borrar</button>
-        </main>
-        <footer class="footer">
-            <p>CIFP Virgen de Gracia</p>
-            <p>Contacto: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">judithmtd08@gmail.com</a></p>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi página web</h1>
+        <nav>
+            <details>
+                <summary>Ir a un ejercicio</summary>
+                <div class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="Formulario.html">Ejercicio 1: Formulario</a>
+                    <a href="1html.html">Ejercicio 2: HTML</a>
+                    <a href="horario.html">Ejercicio 3: Horario</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulario de contacto</h2>
+        <form>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <p><label for="nombre">Nombre:</label><br><input type="text" id="nombre" name="nombre" required></p>
+                <p><label for="apellido">Apellidos:</label><br><input type="text" id="apellido" name="apellido" required></p>
+                <p><label for="email">Email:</label><br><input type="email" id="email" name="email" required></p>
+                <p><label for="contrasena">Contraseña:</label><br><input type="password" id="contrasena" name="contrasena" required></p>
+                <p><label for="telefono">Teléfono:</label><br><input type="tel" id="telefono" name="telefono"></p>
+                <p><label for="comentario">Comentario:</label><br><textarea id="comentario" name="comentario" rows="5" cols="35"></textarea></p>
+            </fieldset>
+            <fieldset>
+                <legend>Otros datos</legend>
+                <p><label for="fecha">Fecha:</label> <input type="date" id="fecha" name="fecha"></p>
+                <p><label for="hora">Hora:</label> <input type="time" id="hora" name="hora"></p>
+                <p><label for="color">Color favorito:</label> <input type="color" id="color" name="color"></p>
+                <p><label for="mes">Mes:</label> <input type="month" id="mes" name="mes"></p>
+            </fieldset>
+            <p><button type="submit">Enviar</button> <button type="reset">Borrar</button></p>
+        </form>
+    </main>
+    <footer>
+        <p>Hecho por Judith · 2026</p>
+        <p>CIFP Virgen de Gracia</p>
+    </footer>
+</body>
 </html>
